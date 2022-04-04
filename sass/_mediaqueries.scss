@@ -1,0 +1,82 @@
+@media screen and (min-width: 500px) {
+    header  {
+        width: 100%;
+        .menu {
+            font-size: 25px;
+        }
+    }
+    footer {
+        h2 {
+            font-size: 35px;
+        }
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    header {
+        .logo{
+            width: 100%;
+        }
+        .menu {
+            font-size: 40px;
+        }
+    }
+    footer {
+        width: 100%;
+        h2 {
+            font-size: 40px;
+        }
+        .contacto {
+            font-size: 30px;
+        .contacto-fb
+            .fa-facebook {
+                font-size: 40px
+            }
+        .contacto-instagram
+            .fa-instagram {
+                font-size: 40px
+            }
+            
+        .contacto-telefono
+            .fa-whatsapp {
+                font-size: 40px
+            }
+        .contacto-ubicacion
+            .fa-map-marker-alt {
+                font-size: 40px
+            }
+        }
+    }
+}
+
+
+// @media screen and (max-width: 1000px) {
+//     header .cabezera {
+//         .logo {
+//             width: 200px;
+//         }
+//         text-align: center;
+//         .fondo {
+//             display: none;
+//         }
+//         .hamburger {
+//             display: none;
+//         }
+//     }
+// }
+
+// @media screen and (max-width:800px) {
+//     header {
+//         .fondo {
+//             display: none;
+//         }
+//     }
+
+//     footer {
+//         font-size: 15px;
+//         h2 {
+//             font-size: 30px;
+//         }
+//     }
+// }
